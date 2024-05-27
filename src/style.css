@@ -114,6 +114,13 @@ body{
     font-weight: bold;
     margin: 0;
   }
+
+  .todo-list-item h4{
+    font-size: 20px;
+    color: rgb(0, 255, 157);
+    font-weight: bold;
+    margin: 0;
+  }
   
   .todo-list-item p{
     font-size: 14px;
@@ -122,8 +129,9 @@ body{
   }
   
   .icon{
-    font-size: 35px;
+    font-size: 25px;
     cursor: pointer;
+    color:hotpink;
   }
   
   .icon:hover{
@@ -145,12 +153,20 @@ body{
   .edit__wrapper{
     background-color: #414040;
     padding: 10px;
+    margin-bottom: 10px;
     display: flex;
     flex-direction: column;
   }
 
   .edit:hover{
     color: rgb(186, 228, 69);
+  }
+
+  .edit__wrapper label{
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: aqua;
   }
   
   .edit__wrapper input,.edit__wrapper textarea{
